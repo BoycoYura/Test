@@ -1,6 +1,21 @@
 .top-menu{
 	list-style-type: none;
 	background-color: rgba(40,79,117,0.8);
+	padding-right: 30px;
 }
 
 
+li{
+	display: inline-block;
+	padding: 15px;
+	
+}
+
+li a{
+	color: white;
+	text-decoration: none;
+}
+
+li a:hover{
+	color: coral;
+}
