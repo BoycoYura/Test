@@ -10,7 +10,7 @@
 }
 
 
-li{
+nav li{
 	display: inline-block;
 	padding: 15px;
 	
@@ -93,3 +93,179 @@ nav{
 #we-sent {
     padding: 30px 0px;
 }
+
+#advantages{
+	background-image: url(../images/hongkongp1.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 100% 100%;
+	position: relative;
+}
+
+.z-block{
+	z-index: 2;
+	position: relative;
+}
+
+#advantages h1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+}
+
+#advantages p{
+	color: white;
+	padding-bottom: 30px;
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+}
+
+.overlay{
+	background: rgba(0, 0, 0, 0.2);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 1;
+}
+
+.text-block {
+	position: relative;
+	z-index: 2;
+}
+
+#prices {
+	padding: 30px 0;
+}
+
+#prices h1 {
+	padding: 20px 0;
+	font-size: 25px;
+}
+
+#prices li {
+	margin-left: 50px;
+	margin-bottom: 15px;
+}
+
+#contacts {
+	background-color: rgb(40,79,117);
+}
+
+input[type="text"] {
+	width: 600px;
+	height: 40px;
+	padding-left: 15px;
+	font-size: 15px;
+	margin-bottom: 25px;
+}
+
+#contacts {
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+#contacts h1 {
+	padding-top: 40px;
+	color: white;
+}
+
+input[type="submit"] {
+	font-weight: bold;
+	border: none;
+	width: 250px;
+	height: 40px;
+	font-size: 13px;
+	color: rgb(40,79,117);
+	background-color: white;
+	margin-bottom: 40px;
+}
+
+#contacts p {
+	color: white;
+}
+
+footer {
+	color: white;
+	text-align: center;
+	padding: 20px 0 40px;
+	font-weight: bold;
+	background-color: rgb(40,79,117);
+}
+
+footer span {
+	padding: 0 40px;
+}
+
+#gallery {
+	position: relative;
+}
+
+.abs-div {
+	position: absolute;
+	bottom: 0;
+	background-color: rgba(40,79,117,0.8);
+	width: 100%;
+	margin: 0;
+	color: white;
+	font-size: 20px;
+	padding: 10px;
+}
+
+.abs-div h1 {
+	font-size: 25px;
+	margin: 5px 0;
+}
+
+
+/*Responsive*/
+@media (max-width: 1440px) {
+	h1{
+		color: red;
+	}
+}
+
+@media (max-width: 1200px) {
+	h1{
+		color: blue;
+	}
+}
+
+@media (max-width: 991px) {
+	h1{
+		color: red;
+	}
+}
+
+
+@media (max-width: 767px) {
+	h1{
+		color: blue;
+	}
+}
+
+
+@media (max-width: 500px) {
+	h1{
+		color: green;
+	}
+}
+
+@media (max-width: 375px) {
+	h1{
+		color: blue;
+	}
+}
+
+
+@media (max-width: 320px) {
+	h1{
+		color: yellow;
+	}
+}
+
+/*Responsive*/
+
+
+
